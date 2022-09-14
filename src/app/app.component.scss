@@ -1,0 +1,252 @@
+header{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 15px 100px;
+    z-index: 10;
+    background: black;
+    color:rgb(255, 255, 255) ;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+.banner{
+    padding: 50px 50px 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.banner .content h2 {
+    font-size: 1.5em;
+}
+.banner .content h6 {
+    font-size: 1em;
+}
+.banner .content{
+    font-size: 2.2em;
+}
+.banner .content a{
+    display: inline-block;
+    background: #fff;
+    padding: 9px 20px;
+    text-decoration: none;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.banner .image{
+    margin-left: 50px;
+}
+
+mat-expansion-panel{
+    align-items: center;
+    text-align: center;
+    position: relative;
+    display: block;
+    margin: auto;
+    width: 70%;
+    background-color: rgb(42, 42, 42);
+    color: rgb(255, 255, 255);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.image{
+    height: 10em;
+    border-radius: 50%;
+}
+.gitStatus{
+    
+}
+.iconzito{
+    height: 2em;
+    margin: 0 6px 0 0;
+    
+}
+mat-panel-title{
+
+}
+.networks{
+    margin: 0 6px 0 0 ;
+}
+
+
+footer{
+    background: black;
+    color: white;
+}
+.wife{
+    width: 400px;
+    border-radius: 50%;
+}
+.chico{
+    width: 200px;
+    border-radius: 50%; 
+    margin: 0 10px 0 0;
+}
+.nenem{
+    width: 200px;
+    border-radius: 50%; 
+    margin: 0 10px 0 0;
+}
+.maggie{
+    width: 200px;
+    border-radius: 50%; 
+    margin: 0 0 0 10px  ;
+}
+.mengo {
+    width: 400px;
+    border-radius: 50%;
+    height: 350px;
+}
+@media (max-width: 951px){
+    header{
+
+        font-size: 20px;
+    }
+    mat-panel-title{
+        font-size: 15px;
+    }
+    .gitStatus{
+        width: 18em;
+    }
+    .iconzito{
+        height: 1.8em;
+        margin: 0 5px 0 0;
+    }
+    .networks{
+        margin: 0 5px 0 0 ;
+        width: 7em;
+    }
+    .banner{
+        margin-top: 30px;
+        padding: 105px 20px 50px;
+        flex-direction: column-reverse;
+        
+    }
+    .banner .image{
+        margin: 0 0 15px 0;
+        max-width: 80%;
+    }
+    .banner .content h2{
+        font-size:  1em;
+    }
+    .wife{
+        width: 300px;
+        border-radius: 50%;
+    }
+    .chico{
+        width: 150px;
+        border-radius: 50%; 
+        margin: 0 10px 0 0;
+    }
+    .nenem{
+        width:  150px;
+        border-radius: 50%; 
+        margin: 0 10px 0 0;
+    }
+    .maggie{
+        width:  150px;
+        border-radius: 50%; 
+        margin: 0 0 0 10px  ;
+    }
+    .mengo {
+        width: 300px;
+        border-radius: 50%;
+        height: 350px;
+    }
+
+}
+
+@media (max-width: 600px){
+    header{
+        font-size: 15px;
+    }
+    mat-panel-title{
+        font-size: 10px;
+    }
+    .gitStatus{
+        width: 12.5em;
+    }
+    .iconzito{
+        height: 1.4em;
+        margin: 0 4px 0 0; 
+    }
+    .networks{
+        margin: 5px 5px 0 0 ;
+        width: 3em;
+    }
+    .banner .content h2{
+        font-size:  0.5em;
+    }
+    .banner .content h6{
+        font-size: 15px;
+    }
+    .titlex{
+        font-size: small;
+    }
+    .wife{
+        width: 160px;
+        border-radius: 50%;
+    }
+    .chico{
+        width: 100px;
+        border-radius: 50%; 
+        margin: 0 10px 0 0;
+    }
+    .nenem{
+        width:  100px;
+        border-radius: 50%; 
+        margin: 0 10px 0 0;
+    }
+    .maggie{
+        width:  100px;
+        border-radius: 50%; 
+        margin: 0 0 0 10px  ;
+    }
+    .mengo {
+        width: 120px;
+        border-radius: 50%;
+        height: 120px;
+    }
+}
+@media (max-width: 320px){
+    header{
+        font-size: 10px;
+    }
+    mat-panel-title{
+        font-size: 7px;
+    }
+    .gitStatus{
+        width: 9em;
+    }
+    .iconzito{
+        height: 1em;
+        margin: 0 2px 0 0;
+        
+    }
+    .banner .content h2{
+        font-size:  0.5em;
+    }
+    .banner .content h6{
+        font-size: 10px;
+    }
+    .chico{
+        width:  40px;
+        border-radius: 50%; 
+        margin: 0 10px 0 0;
+    }
+    .nenem{
+        width:   40px;
+        border-radius: 50%; 
+        margin: 0 10px 0 0;
+    }
+    .maggie{
+        width:  40px;
+        border-radius: 50%; 
+        margin: 0;
+    }
+    
+}

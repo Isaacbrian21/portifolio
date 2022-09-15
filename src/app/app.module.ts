@@ -1,9 +1,8 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import {FieldsetModule} from 'primeng/fieldset';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatExpansionModule} from '@angular/material/expansion'
 
 @NgModule({
@@ -13,9 +12,8 @@ import { MatExpansionModule} from '@angular/material/expansion'
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FieldsetModule,
     BrowserAnimationsModule,
-    MatExpansionModule
+    MatExpansionModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

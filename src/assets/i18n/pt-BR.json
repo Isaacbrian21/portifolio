@@ -1,0 +1,70 @@
+{
+  "greetings": {
+    "wellcome": "Bem vindo(a)",
+    "hello": "Olá! Sou Isaac Brian!",
+    "profession": "Estagiário de engenharia de Software",
+    "company": "Cognizant - Ford Motor Company",
+    "city": "São Paulo - Brasil"
+  },
+  "languages": {
+    "title": "Linguagens e ferramentas",
+    "status": "Status da linguagem de programação do GitHub"
+  },
+  "networks": {
+    "title": "Rede social e repositório"
+  },
+  "skils": {
+    "title": "Habilidades pessoais",
+    "teamWork": "Trabalho em Equipe",
+    "communication": "Boa comunicação",
+    "organization": "Organização",
+    "dedicated": "Profissional dedicado"
+  },
+  "sumary": {
+    "title": "Resumo",
+    "description": "Sou carioca, tenho 24 anos, trabalhei 5 anos na Marinha do Brasil. Hoje moro em São Paulo, capital cursando o 4º semestre de TI - Análise de desenvolvimento de sistemas. Eu sou bom em línguas. Com o inglês sou autodidata, aprendo com séries, filmes, músicas, aplicativos e etc, me organizo para aprender novas palavras todos os dias e aproveitando meu dom de aprender idiomas, também estou adquirindo conhecimentos em alemão e no futuro pretendo estudar Italiano. Atualmente sou estagiário de engenharia de software na Cognizant/Ford Motor Company."
+  },
+  "education": {
+    "title": "Educação acadêmica",
+    "university1": "Análise e desenvolvimento de sistemas - Descomplica Faculdade digital",
+    "time": "Out 2021 - Fev 2024",
+    "status1": "Em andamento - 4° semestre",
+    "university2":"Nutrição - Estácio",
+    "time" : "Ago 2018 - Jun 2019",
+    "status2": "Trancada - 2° Semestre",
+    "highSchool": "Escola estadual Bahia",
+    "time": "Fev 2015 - Nov 2017",
+    "status": "Diploma Ensino Médio - Completo"
+  },
+  "exp": {
+    "title": "Experiências",
+    "subTitle1": "Estágio de Engenheiro de Software - Cognizant - Ford Motor Company",
+    "time1": "Desde Mar 2022",
+    "function1":"Trabalhando com: HTML, CSS, JavaScript,TypeScript, Angular, Java, SQL and Spring Boot",
+    "subTitle2": "Ajudante de cozinha  - Nipo Brasileiro Hospital",
+    "time2": "Out 2021 - Mar 2022",
+    "function2": "Trabalhei com: Auxílio na cozinha, Montagem de frios, Montagem de saladas, Montagem de sobremesas, Limpeza de refeitórios, Interações de nutricionistas e eu trabalho escala 6x1 das 6h às 14h",
+    "subTitle3": "Militar - Marinha do Brasil - Período integral",
+    "time3": "Ago 2016 - Jul 2021",
+    "function3": "Fui matriculado no Curso de Formação de Reservistas Navais (CFRN) localizado na Ilha de Marambaia, RJ. Após a formatura, pude servir ao país, sendo designado para servir no Batalhão Naval, Ilha das Cobras, RJ, organização militar na qual passei todos os meus 4 anos e 9 meses. Lá trabalhei na área de serviço no refeitório de oficiais, atuei no alto escalão das Forças Armadas de meados de 2016 a 2018. Em 2018 concluí a adaptação para cozinheira, tornando-me então cozinheiro militar, função que ocupei até Julho de 2021."
+  },
+  "about": {
+    "title": "Mais sobre min",
+    "subTitle1":"Sou casado desde Março de 2022",
+    "details1": "Esta é minha maravilhosa esposa e eu",
+    "subTitle2":"Eu tenho 2 pets/filhos",
+    "details2": "Chico (gato tigrado) e Maggie (Dachshund cadela)",
+    "subTitle3":"Uma vez Flamengo, sempre Flamengo",
+    "details3": "Minha paixão pelo futebol, especialmente pelo Flamengo, é meu passatempo favorito de fim de semana. Esse é o amor que levarei para toda a vida"
+  },
+
+  "footer": {
+    "title": "Contatos",
+    "phone": "Telefone: 21 98284-9650",
+    "email": "E-mail: Isaac.brian21@outlook.com"
+  },
+
+  "infos":{
+    "toTranslate": "Selecione um idioma"
+  }
+}

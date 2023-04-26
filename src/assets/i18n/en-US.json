@@ -1,0 +1,71 @@
+{
+  "greetings": {
+    "wellcome": "Welcome",
+    "hello": "Hey, there! I'm Isaac Brian!",
+    "profession": "Software Engineer Intern",
+    "company": "Cognizant - Ford Motor Company",
+    "city": "São Paulo - Brazil"
+  },
+  "languages": {
+    "title": "Languages and Tools",
+    "status": "GitHub Language Status"
+  },
+  "networks": {
+    "title": "Social Network and Repository"
+  },
+  "skils": {
+    "title": "Personal skills",
+    "teamWork": "Team work",
+    "communication": "Good communication",
+    "organization": "Organization",
+    "dedicated": "dedicated professional"
+  },
+  "sumary": {
+    "title": "Sumary",
+    "description": "I'm from Rio de Janeiro, I'm 24 years old, I worked for 5 years in the Brazilian Navy. Today I live in São Paulo, Capital Studying the 4th Semester of IT - Systems Development Analysis. I'm good at languages. With English I am self-taught, I learn with series, movies, music, apps and etc, I organize myself to learn new words every day and taking advantage of my gift of learning languages, I am also acquiring knowledge in German and Italian in the future. I am currently a Software Engineering Intern at Cognizant/Ford Motor Company."
+  },
+  "education": {
+    "title": "Academic Education",
+    "university1": "Systems Analysis and Developmen - Descomplica Faculdade digital",
+    "time": "Oct 2021 - Feb 2024",
+    "status1": "In progress - 4th semester",
+    "university2": "Nutrition - Estácio",
+    "time": "Aug 2018 - Jun 2019",
+    "status2": "Descontinued - 2th semester",
+    "highSchool": "Bahia State School",
+    "time": "Feb 2015 - Nov 2017",
+    "status": "High School Diploma - Complete high School"
+  },
+  "exp": {
+    "title": "Experiences",
+    "subTitle1": "Software Engineer Intership - Cognizant - Ford Motor Company",
+    "time1": "Since: Mar 2022",
+    "function1": "Working with: HTML, CSS, JavaScript,TypeScript, Angular, Java, SQL and Spring Boot",
+    "subTitle2": "Kitchen helper - Nipo Brasileiro Hospital",
+    "time2": "Oct 2021 - Mar 2022",
+    "function2": "Working with: Assistance to cook, Cold food montages, Salad montages, Desserts montages, Cleaning of cafeterias, Interactions of nutritionists and I work on a 6x1 scale from 6am to 2pm",
+    "subTitle3": "Military - Brasilian Navy - Full time",
+    "time3": "Aug 2016 - Jul 2021",
+    "function3": "I was enrolled in the Naval Reservists Training Course (CFRN) located on the island of Marambaia, RJ. After graduating, I was able to serve the country, being assigned to serve in the Naval Battalion, Ilha das cobras, RJ, a military organization in which I spent all my 4 years and 9 months. There I worked in the service area in the officers' mess, I dealt with the high echelon of the armed forces from mid-2016 to 2018. In 2018 I completed the adaptation to cook, then becoming a military cook, a role I held until July 2021."
+  },
+  "about": {
+    "title": "More about me",
+    "subTitle1":"I'm married since Mar 2022",
+    "details1": "This is my wife, Beatriz and me",
+    "subTitle2":"I have 2 pets/children",
+    "details2": "Chico (standard cat) and Maggie (Dachshund dog)",
+    "subTitle3":"Once Flamengo, Always Flamengo",
+    "details3": "My passion for futebol, especially Flamengo is my favorite weekend hobby. This love that I'll take for life"
+  },
+
+  "footer": {
+    "title": "Contacts",
+    "phone": "Phone: 21 98284-9650",
+    "email": "E-mail: Isaac.brian21@outlook.com"
+  },
+
+  "infos":{
+    "toTranslate": "Select a language"
+  }
+
+}

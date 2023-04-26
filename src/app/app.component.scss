@@ -11,8 +11,29 @@ header{
     color:rgb(255, 255, 255) ;
     font-size: 25px;
     font-family: 'Courier New', Courier, monospace;
-    
+
 }
+*{
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.align-flags {
+  width: 10%;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+
+  span.pipe{
+    margin: 0 10px;
+  }
+
+  .language{
+    cursor: pointer;
+  }
+}
+
 
 .banner{
     padding: 50px 50px 50px;
@@ -58,12 +79,12 @@ mat-expansion-panel{
     border-radius: 50%;
 }
 .gitStatus{
-    
+
 }
 .iconzito{
     height: 2em;
     margin: 0 6px 0 0;
-    
+
 }
 mat-panel-title{
 
@@ -76,6 +97,9 @@ mat-panel-title{
 footer{
     background: black;
     color: white;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0 20px 0;
 }
 .wife{
     width: 400px;
@@ -83,17 +107,17 @@ footer{
 }
 .chico{
     width: 200px;
-    border-radius: 50%; 
+    border-radius: 50%;
     margin: 0 10px 0 0;
 }
 .nenem{
     width: 200px;
-    border-radius: 50%; 
+    border-radius: 50%;
     margin: 0 10px 0 0;
 }
 .maggie{
     width: 200px;
-    border-radius: 50%; 
+    border-radius: 50%;
     margin: 0 0 0 10px  ;
 }
 .mengo {
@@ -124,7 +148,7 @@ footer{
         margin-top: 30px;
         padding: 105px 20px 50px;
         flex-direction: column-reverse;
-        
+
     }
     .banner .image{
         margin: 0 0 15px 0;
@@ -139,17 +163,17 @@ footer{
     }
     .chico{
         width: 150px;
-        border-radius: 50%; 
+        border-radius: 50%;
         margin: 0 10px 0 0;
     }
     .nenem{
         width:  150px;
-        border-radius: 50%; 
+        border-radius: 50%;
         margin: 0 10px 0 0;
     }
     .maggie{
         width:  150px;
-        border-radius: 50%; 
+        border-radius: 50%;
         margin: 0 0 0 10px  ;
     }
     .mengo {
@@ -172,7 +196,7 @@ footer{
     }
     .iconzito{
         height: 1.4em;
-        margin: 0 4px 0 0; 
+        margin: 0 4px 0 0;
     }
     .networks{
         margin: 5px 5px 0 0 ;
@@ -193,17 +217,17 @@ footer{
     }
     .chico{
         width: 100px;
-        border-radius: 50%; 
+        border-radius: 50%;
         margin: 0 10px 0 0;
     }
     .nenem{
         width:  100px;
-        border-radius: 50%; 
+        border-radius: 50%;
         margin: 0 10px 0 0;
     }
     .maggie{
         width:  100px;
-        border-radius: 50%; 
+        border-radius: 50%;
         margin: 0 0 0 10px  ;
     }
     .mengo {
@@ -225,7 +249,7 @@ footer{
     .iconzito{
         height: 1em;
         margin: 0 2px 0 0;
-        
+
     }
     .banner .content h2{
         font-size:  0.5em;
@@ -235,18 +259,18 @@ footer{
     }
     .chico{
         width:  40px;
-        border-radius: 50%; 
+        border-radius: 50%;
         margin: 0 10px 0 0;
     }
     .nenem{
         width:   40px;
-        border-radius: 50%; 
+        border-radius: 50%;
         margin: 0 10px 0 0;
     }
     .maggie{
         width:  40px;
-        border-radius: 50%; 
+        border-radius: 50%;
         margin: 0;
     }
-    
+
 }

@@ -1,5 +1,5 @@
 <header>
-  <h2>Hi, welcome</h2>
+  <h2>{{ 'greetings.wellcome' | translate }}</h2>
 </header>
 <br>
 <br>
@@ -7,47 +7,60 @@
 <br>
 <div class="banner">
   <div class="content">
-    <h2>Hey, there! I'm Isaac Brian!</h2>
-    <h6>Software Engineer Intern</h6>
-    <h6>Cognizant - Ford Motor Company</h6>
+    <h2>{{'greetings.hello' | translate}}</h2>
+    <h6>{{'greetings.profession' | translate}}</h6>
+    <h6>{{'greetings.company' | translate}}</h6>
     <h6></h6>
     <h6></h6>
-    <h6>São Paulo</h6>
+    <h6>{{'greetings.city' | translate }}</h6>
   </div>
 
-  <img src="../assets/profile.jfif" alt="foto minha" class="image">
+  <div>
+
+    <img src="../assets/profile.jfif" alt="foto minha" class="image">
+    <br>
+    <span>{{'infos.toTranslate' | translate}}</span>
+    <div class="align-flags">
+      <span class="language" (click)="changeLanguage('pt-BR')" >Portugês</span>
+      <span class="pipe">|</span>
+      <span class="language" (click)="changeLanguage('en-US')">English</span>
+      <span class="pipe">|</span>
+      <span class="language" (click)="changeLanguage('es-ES')">Español</span>
+    </div>
+  </div>
 </div>
+
 
 <mat-accordion>
   <mat-expansion-panel>
     <mat-expansion-panel-header>
       <mat-panel-title>
-        <h2 class="titlex">Languages and Tools</h2>
+        <h2 class="titlex"> {{'languages.title' | translate}} </h2>
       </mat-panel-title>
     </mat-expansion-panel-header>
     <div style="display: inline_block"><br>
       <img class="iconzito" align="center" alt="HTML"
-        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
+        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" matTooltip="HTML 5" matTooltipPosition="above"/>
       <img class="iconzito" align="center" alt="CSS"
-        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
+        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" matTooltip="CSS 3"  matTooltipPosition="above"/>
       <img class="iconzito" align="center" alt="JAVA SCRIPT"
-        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" matTooltip="JavaScript"  matTooltipPosition="above"/>
       <img class="iconzito" align="center" alt="TYPESCRIPT"
-        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
+        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"matTooltip="TypeScript "   matTooltipPosition="above"/>
       <img class="iconzito" align="center" alt="ANGULAR"
-        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" />
+        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" matTooltip="Angular "   matTooltipPosition="above"/>
       <img class="iconzito" align="center" alt="JAVA"
-        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
+        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" matTooltip="Java "   matTooltipPosition="above" />
       <img class="iconzito" align="center" alt="SPRING BOOT"
-        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" />
+        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" matTooltip="Spring Boot "   matTooltipPosition="above"/>
       <img class="iconzito" align="center" alt="GITHUB"
-        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" matTooltip="GitHub "  matTooltipPosition="above" />
 
 
       <br>
       <br>
       <img class="gitStatus"
-        src="https://github-readme-stats.vercel.app/api/top-langs/?username=isaacbrian21&layout=compact&langs_count=16&theme=dark" />
+        src="https://github-readme-stats.vercel.app/api/top-langs/?username=isaacbrian21&layout=compact&langs_count=16&theme=dark" matTooltip="{{'languages.status' | translate }}"  matTooltipPosition="right" />
 
     </div>
   </mat-expansion-panel>
@@ -55,161 +68,123 @@
   <mat-expansion-panel class="acordion">
     <mat-expansion-panel-header>
       <mat-panel-title>
-        <h2  class="titlex" >Social Network</h2>
+        <h2  class="titlex" > {{'networks.title' | translate}}</h2>
       </mat-panel-title>
     </mat-expansion-panel-header>
     <br>
     <a href="https://www.linkedin.com/in/isaac-brian-da-silva-8836ab19b/" target="_blank">
       <img class="networks"
         src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"
-        target="_blank">
+        target="_blank" matTooltip="LinkedIn "  matTooltipPosition="above">
     </a>
 
     <a href="https://www.facebook.com/isaac5521" target="_blank">
       <img class="networks"
         src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white"
-        target="_blank">
+        target="_blank" matTooltip="Facebook "  matTooltipPosition="above" >
     </a>
-  </mat-expansion-panel>
-  <br>
-  <mat-expansion-panel>
-    <mat-expansion-panel-header>
-      <mat-panel-title>
-        <h2  class="titlex" >Portifolio</h2>
-      </mat-panel-title>
-    </mat-expansion-panel-header>
     <a href="https://github.com/Isaacbrian21" target="_blank">
       <img class="networks"
         src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"
-        target="_blank">
+        target="_blank" matTooltip="GitHub "  matTooltipPosition="above" >
     </a>
-    
+  </mat-expansion-panel>
+
+  <br>
+  <mat-expansion-panel>
+    <mat-expansion-panel-header>
+      <mat-panel-title>
+        <h2  class="titlex" >{{ 'skils.title'| translate }}</h2>
+      </mat-panel-title>
+    </mat-expansion-panel-header>
+    <li>{{'skils.teamWork'| translate}}</li>
+    <li>{{'skils.communication'| translate}}</li>
+    <li>{{'skils.organization'| translate}}</li>
+    <li>{{'skils.dedicated'| translate}}</li>
+
   </mat-expansion-panel>
   <br>
   <mat-expansion-panel>
     <mat-expansion-panel-header>
       <mat-panel-title>
-        <h2  class="titlex" >Personal Skills</h2>
+        <h2  class="titlex" >{{ 'sumary.title' | translate}}</h2>
       </mat-panel-title>
     </mat-expansion-panel-header>
-    <li>Team work</li>
-    <li>Communication</li>
-    <li>Organization</li>
-    <li>Dedicated</li>
-    
+    <p>{{ 'sumary.description' | translate}} </p>
   </mat-expansion-panel>
   <br>
   <mat-expansion-panel>
     <mat-expansion-panel-header>
       <mat-panel-title>
-        <h2  class="titlex" >Sumary</h2>
+        <h2  class="titlex" > {{'education.title' | translate}} </h2>
       </mat-panel-title>
     </mat-expansion-panel-header>
-    <p>
-      I am from Rio de Janeiro, I am 24 years old, I worked for 5 years in the Brazilian Navy.
-      Today I live in São Paulo, Capital
-      Attending 3rd Semester of IT - Systems Development Analysis
-      I'm good at languages. With English I am self-taught, I learn with series, movies, music, applications and etc, I
-      organize myself to learn new words every day.
-      I am currently a Software Engineer Intern at Cognizant/Ford Motor Company.
-    </p>
-  </mat-expansion-panel>
-  <br>
-  <mat-expansion-panel>
-    <mat-expansion-panel-header>
-      <mat-panel-title>
-        <h2  class="titlex" >Academic Education</h2>
-      </mat-panel-title>
-    </mat-expansion-panel-header>
-    <h5>Systems Analysis and Developmen - Descomplica Faculdade digital</h5>
-    <h6>Out 2021 - Feb 2024</h6>
+    <h5>{{'education.university1' | translate}}</h5>
+    <h6>{{'education.time' | translate}}</h6>
+    <h6> {{'education.status1' | translate}} </h6>
     <br>
     <hr size="5" color="white">
     <br>
-    <h5> Nutrition - Estácio</h5>
-    <h6>Aug 2018 - Jun 2019</h6>
-    <h6>Note: Descontinued</h6>
+    <h5> {{'education.university2' | translate}}</h5>
+    <h6>{{'education.time' | translate}}</h6>
+    <h6>{{'education.status2' | translate}}</h6>
     <br>
     <hr size="5" color="white">
     <br>
-    <h5>Bahia State School</h5> 
-    <h6>Feb 2015 - Nov 2017</h6>
-    <h6>High School Diploma - Complete high School</h6>
+    <h5>{{'education.highSchool' | translate}}</h5>
+    <h6>{{'education.time' | translate}}</h6>
+    <h6>{{'education.status' | translate}}</h6>
   </mat-expansion-panel>
   <br>
   <mat-expansion-panel>
     <mat-expansion-panel-header>
       <mat-panel-title>
-        <h2  class="titlex" >Experience</h2>
+        <h2  class="titlex" > {{'exp.title' | translate}} </h2>
       </mat-panel-title>
     </mat-expansion-panel-header>
-    <h5>Software Engineer Intership - Cognizant - Ford Motor Company</h5>
-    <h6>Since: Mar 2022</h6>
-    <p>Working with:</p>
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>JavaScript</li>
-    <li>TypeScript</li>
-    <li>Angular</li>
-    <li>Java</li>
-    <li>SQL</li>
-    <li>Spring Boot</li>
+    <h4> {{'exp.subTitle1' | translate}} </h4>
+    <h4> {{'exp.time1' | translate}}</h4>
+    <p> {{'exp.function1' | translate}}</p>
     <br>
     <hr size="5" color="white">
     <br>
-    <h5>Kitchen helper - Nipo Brasileiro Hospital</h5>
-    <h6>Oct 2021 - Mar 2022</h6>
-    <p>Working with:</p>
-    <li>Assistance to cook</li>
-    <li>Cold food montages</li>
-    <li>Salad montages</li>
-    <li>Desserts montages</li>
-    <li>Cleaning of cafeterias</li>
-    <li>Interactions of nutritionists</li>
-    <li>I work on a 6x1 scale from 6am to 2pm</li>
+    <h4> {{'exp.subTitle2' | translate}} </h4>
+    <h4> {{'exp.time2' | translate}}</h4>
+    <p> {{'exp.function2' | translate}}</p>
     <br>
     <hr size="5" color="white">
     <br>
-    <h5>Military</h5>
-    <p> Brasilian Navy - Full time</p>
-    <h6>Aug 2016 - Jul 2021</h6>
-    <p>I was enrolled in the Naval Reservists Training Course (CFRN) located on the island of Marambaia, RJ.
-      After graduating, I was able to serve the country, being assigned to serve in the Naval Battalion,
-      Ilha das cobras, RJ, a military organization in which I spent all my 4 years and 9 months.
-      There I worked in the service area in the officers' mess, I dealt with the high echelon of the armed forces from
-      mid-2016 to 2018.
-      In 2018 I completed the adaptation to cook, then becoming a military cook, a role I held until July 2021.</p>
-    <li></li>
+    <h4> {{'exp.subTitle3' | translate}} </h4>
+    <h4> {{'exp.time3' | translate}}</h4>
+    <p> {{'exp.function3' | translate}}</p>
   </mat-expansion-panel>
   <br>
   <mat-expansion-panel>
     <mat-expansion-panel-header>
       <mat-panel-title>
-        <h2  class="titlex" >More about me</h2>
+        <h2  class="titlex" > {{'about.title' | translate}} </h2>
       </mat-panel-title>
     </mat-expansion-panel-header>
     <div class="married">
-      <h5>I'm married since Mar 2022</h5>
+      <h5>{{'about.subTitle1' | translate}}</h5>
       <img src="../assets/wife.JPG" alt="married" class="wife">
-      <p>This is my wife, Beatriz and me</p>
+      <p>{{'about.details1' | translate}}</p>
     </div>
     <br>
     <hr size="5" color="white">
     <br>
     <div class="children">
-      <h5>I have 3 pets/children</h5>
-      <p>Chico (standard cat), Nenem (siamese cat) and Maggie (Dachshund dog)</p>
+      <h5> {{'about.subTitle2' | translate}} </h5>
+      <p>{{'about.details2' | translate}}</p>
       <img src="../assets/chico.jpeg" alt="Pets" class="chico">
-      <img src="../assets/nenem.jpeg" alt="Pets" class="nenem">
       <img src="../assets/maggie.jpeg" alt="Pets" class="maggie">
     </div>
     <br>
     <hr size="5" color="white">
     <br>
     <div class="futbolLove">
-      <h5>Once Flamengo, Always Flamengo</h5>
-      <p>My passion for futebol, especially Flamengo is my favorite weekend hobby.
-        This love that I'll take for life</p>
+      <h5>{{'about.subTitle3' | translate}}</h5>
+      <p>{{'about.details3' | translate}}</p>
       <img src="../assets/mengo.jpeg" alt="Mengo" class="mengo">
     </div>
   </mat-expansion-panel>
@@ -226,10 +201,12 @@
 <div><h1>ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ</h1></div>
 
 <footer>
+  <div class="footer">
 
-  <h3>Contatos</h3>
-  <li>Phone: 21 98284-9650</li>
-  <li>E-mail: Isaac.brian21@outlook.com</li>
-  
+    <h3>{{'footer.title' | translate }}</h3>
+    <li>{{'footer.phone'| translate}}</li>
+    <li> {{'footer.email' | translate}}</li>
+  </div>
+
 
 </footer>

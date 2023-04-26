@@ -1,0 +1,69 @@
+{
+  "greetings": {
+    "wellcome": "Bienvenido(a)",
+    "hello": "¡Hola! ¡Soy Isaac Brian!",
+    "profession": "Pasante de Ingeniería de Software",
+    "company": "Cognizant - Ford Motor Company",
+    "city": "São Paulo - Brasil"
+  },
+  "languages": {
+    "title": "Idiomas y Herramientas",
+    "status": "Estado del lenguaje de programación en GitHub"
+  },
+  "networks": {
+    "title": "Red Social y Repositorio"
+  },
+  "skils": {
+    "title": "habilidades personales",
+    "teamWork": "Trabajo en equipo",
+    "communication": "Buena comunicación",
+    "organization": "Organización",
+    "dedicated": "profesional dedicado"
+  },
+  "sumary": {
+    "title": "Resumen",
+    "description": "Soy de Río de Janeiro, tengo 24 años, trabajé durante 5 años en la Marina de Brasil. Hoy vivo en São Paulo, Capital Estudiando el 4º Semestre de TI - Análisis de Desarrollo de Sistemas. Soy bueno en idiomas. Con el ingles soy autodidacta, aprendo con series, peliculas, musica, apps y etc, me organizo para aprender palabras nuevas cada dia y aprovechando mi don de aprender idiomas, tambien estoy adquiriendo conocimientos en aleman e italiano en el futuro. Actualmente soy pasante de ingeniería de software en Cognizant/Ford Motor Company."
+  },
+  "education": {
+    "title": "Educación académica",
+    "university1": "Análisis y desarrollo de sistemas - Descomplica Faculdade digital",
+    "time": "Oct 2021 - Feb 2024",
+    "status1": "En progreso - 4to semestre",
+    "university2": "Nutrición - Estácio",
+    "time": "Ago 2018 - Jun 2019",
+    "status2": "Bloqueado - 2do Semestre",
+    "highSchool": "Escuela estatal de bahia",
+    "time": "Feb 2015 - Nov 2017",
+    "status": "Diploma de escuela secundaria - Completo"
+  },
+  "exp": {
+    "title": "Experiencias",
+    "subTitle1": "Pasante de ingeniería de software - Cognizant - Ford Motor Company",
+    "time1": "Desde: Mar 2022",
+    "function1": "Trabajando con: HTML, CSS, JavaScript,TypeScript, Angular, Java, SQL and Spring Boot",
+    "subTitle2": "Ayudante de cocina  - Nipo Brasileiro Hospital",
+    "time2": "Oct 2021 - Mar 2022",
+    "function2": "Trabajé con: Ayuda en la cocina, Montaje de fiambres, Montaje de ensaladas, Montaje de postres, Limpieza de cafeterías, Interacciones con nutricionistas y trabajo turno 6x1 de 6am a 2pm",
+    "subTitle3": "Militar - Armada de Brasil - Tiempo completo",
+    "time3": "Ago 2016 - Jul 2021",
+    "function3": "Estaba inscrito en el Curso de Formación para Reservistas Navales (CFRN) ubicado en la Isla Marambaia, RJ. Después de graduarme, pude servir al país, siendo asignado para servir en el Batallón Naval, Ilha das Cobras, RJ, la organización militar en la que pasé todos mis 4 años y 9 meses. Allí trabajé en el área de servicio en el comedor de oficiales, trabajé en la jefatura de las Fuerzas Armadas desde mediados de 2016 hasta 2018."
+  },
+  "about": {
+    "title": "Más sobre mí",
+    "subTitle1":"Estoy casado desde marzo de 2022.",
+    "details1": "Esta es mi maravillosa esposa y yo",
+    "subTitle2":"Tengo 2 mascotas/niños",
+    "details2": "Chico (gato atigrado) y Maggie (perra salchicha)",
+    "subTitle3":"Una vez Flamengo siempre Flamengo",
+    "details3": "Mi pasión por el fútbol, especialmente por el Flamengo, es mi pasatiempo favorito de fin de semana. Este es el amor que llevaré conmigo toda la vida."
+  },
+
+  "footer": {
+    "title": "Contactos",
+    "phone": "Teléfono: 21 98284-9650",
+    "email": "Correo electrónico: Isaac.brian21@outlook.com"
+  },
+  "infos":{
+    "toTranslate": "Selecciona un idioma"
+  }
+}

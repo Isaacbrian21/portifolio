@@ -1,0 +1,86 @@
+<div class="title">
+  <h1 class="title__text">{{'exp.title' | translate}}</h1>
+</div>
+<div class="container">
+  <div class="container__tab">
+      <ul>
+          <li (click)="changeView('console')" class="container__tab__navigation"
+              id="console"
+              [class.container__tab__navigation__selected]="id === 'console'">
+              Console Nova geração
+          </li>
+
+          <li (click)="changeView('mobile')" class="container__tab__navigation" id="mobile"
+              [class.container__tab__navigation__selected]="id === 'mobile'">Tecnologia Móvel
+          </li>
+
+          <li (click)="changeView('car')" class="container__tab__navigation" id="car"
+              [class.container__tab__navigation__selected]="id === 'car'">Carros</li>
+
+          <li (click)="changeView('homeplace')" class="container__tab__navigation" id="homeplace"
+              [class.container__tab__navigation__selected]="id === 'homeplace'">Casa própria
+          </li>
+      </ul>
+  </div>
+
+  <div class="container__content" *ngIf="id === 'console'">
+      <div class="container__content__value__image"> <img src="../../../../../assets/ps5.webp" alt=""></div>
+      <div class="container__content__value__text">
+          <p> PlayStation 5 é muito brabo</p>
+      </div>
+  </div>
+  <div class="container__content" *ngIf="id === 'console'">
+      <div class="container__content__value__image"> <img src="../../../../../assets/setup_pc.jpg" alt=""></div>
+      <div class="container__content__value__text">
+          <p> PC gammer é muito brabo, meu setup.</p>
+      </div>
+  </div>
+
+  <div class="container__content" *ngIf="id === 'mobile'">
+      <div class="container__content__value__image"> <img src="../../../../../assets/iPhone-13.jpg" alt=""></div>
+      <div class="container__content__value__text">
+          <p>Iphpne 13 é foda.
+          </p>
+      </div>
+  </div>
+  <div class="container__content" *ngIf="id === 'mobile'">
+      <div class="container__content__value__image"> <img src="../../../../../assets/iphone.jpg" alt=""></div>
+      <div class="container__content__value__text">
+          <p>Iphpne 14 é foda também.
+          </p>
+      </div>
+  </div>
+
+  <div class="container__content" *ngIf="id === 'car'">
+      <div class="container__content__value__image"> <img src="../../../../../assets/Renegade.jpg" alt=""></div>
+      <div class="container__content__value__text">
+          <p> Jeep Renegade - Meu sonho.</p>
+      </div>
+  </div>
+  <div class="container__content" *ngIf="id === 'car'">
+      <div class="container__content__value__image"> <img src="../../../../../assets/ford.webp" alt=""></div>
+      <div class="container__content__value__text">
+          <p> Ford Territory - Meu sonho.</p>
+      </div>
+  </div>
+
+
+
+  <div class="container__content" *ngIf="id === 'homeplace'">
+      <div class="container__content__value__image"> <img src="../../../../../assets/home.jpg" alt=""></div>
+      <div class="container__content__value__text">
+          <p>Uma casa própria. Um sonho.</p>
+      </div>
+  </div>
+
+  <div class="container__content" *ngIf="id === 'homeplace'">
+      <div class="container__content__value__image"> <img src="../../../../../assets/home2.jpg" alt=""></div>
+      <div class="container__content__value__text">
+          <p>No Rio de Janeiro seria Perfeito</p>
+      </div>
+  </div>
+
+</div>
+<br>
+  <br>
+  <br>

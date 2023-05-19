@@ -1,18 +1,9 @@
-header{
-    position:absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    padding: 15px 100px;
-    z-index: 10;
-    background: black;
-    color:rgb(255, 255, 255) ;
-    font-size: 25px;
-    font-family: 'Courier New', Courier, monospace;
 
-}
+
+    .banner{
+      margin-top: 1em;
+    }
+
 *{
   border: 0;
   margin: 0;
@@ -35,32 +26,7 @@ header{
 }
 
 
-.banner{
-    padding: 50px 50px 50px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-.banner .content h2 {
-    font-size: 1.5em;
-}
-.banner .content h6 {
-    font-size: 1em;
-}
-.banner .content{
-    font-size: 2.2em;
-}
-.banner .content a{
-    display: inline-block;
-    background: #fff;
-    padding: 9px 20px;
-    text-decoration: none;
-    font-weight: 600;
-    margin-top: 20px;
-}
-.banner .image{
-    margin-left: 50px;
-}
+
 
 mat-expansion-panel{
     align-items: center;

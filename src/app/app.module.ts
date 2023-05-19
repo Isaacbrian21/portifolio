@@ -8,10 +8,14 @@ import { MatTooltipModule } from '@angular/material/tooltip'
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { HttpClientModule, HttpClient } from '@angular/common/http';
+import { InitialComponent } from './page/initial/initial.component';
+import { ExperiencesComponent } from './page/experiences/experiences.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    InitialComponent,
+    ExperiencesComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,21 @@
+.initial {
+  padding: 50px 50px 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  &__content {}
+
+  &__photo img {
+    width: 20em;
+    border-radius: 50%;
+  }
+}
+
+
+@media (max-width: 750px) {
+  .initial {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}

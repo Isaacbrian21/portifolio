@@ -1,23 +1,11 @@
-<header>
-  <h2>{{ 'greetings.wellcome' | translate }}</h2>
-</header>
-<br>
-<br>
-<br>
-<br>
-<div class="banner">
-  <div class="content">
-    <h2>{{'greetings.hello' | translate}}</h2>
-    <h6>{{'greetings.profession' | translate}}</h6>
-    <h6>{{'greetings.company' | translate}}</h6>
-    <h6></h6>
-    <h6></h6>
-    <h6>{{'greetings.city' | translate }}</h6>
-  </div>
+<section>
 
+  <div class="banner">
+    <app-initial></app-initial>
+    <app-experiences></app-experiences>
   <div>
 
-    <img src="../assets/profile.jfif" alt="foto minha" class="image">
+
     <br>
     <span>{{'infos.toTranslate' | translate}}</span>
     <div class="align-flags">
@@ -50,7 +38,7 @@
       <img class="iconzito" align="center" alt="ANGULAR"
         src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" matTooltip="Angular "   matTooltipPosition="above"/>
       <img class="iconzito" align="center" alt="JAVA"
-        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" matTooltip="Java "   matTooltipPosition="above" />
+      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" matTooltip="Java "   matTooltipPosition="above" />
       <img class="iconzito" align="center" alt="SPRING BOOT"
         src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" matTooltip="Spring Boot "   matTooltipPosition="above"/>
       <img class="iconzito" align="center" alt="GITHUB"
@@ -60,10 +48,12 @@
       <br>
       <br>
       <img class="gitStatus"
-        src="https://github-readme-stats.vercel.app/api/top-langs/?username=isaacbrian21&layout=compact&langs_count=16&theme=dark" matTooltip="{{'languages.status' | translate }}"  matTooltipPosition="right" />
+      src="https://github-readme-stats.vercel.app/api/top-langs/?username=isaacbrian21&layout=compact&langs_count=16&theme=dark" matTooltip="{{'languages.status' | translate }}"  matTooltipPosition="right" />
 
     </div>
   </mat-expansion-panel>
+
+
   <br>
   <mat-expansion-panel class="acordion">
     <mat-expansion-panel-header>
@@ -85,7 +75,7 @@
     </a>
     <a href="https://github.com/Isaacbrian21" target="_blank">
       <img class="networks"
-        src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"
+      src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"
         target="_blank" matTooltip="GitHub "  matTooltipPosition="above" >
     </a>
   </mat-expansion-panel>
@@ -210,3 +200,5 @@
 
 
 </footer>
+
+</section>
